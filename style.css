@@ -151,18 +151,21 @@ nav i{
 .container_of_search{
     background-color: #242442;
     width: 100%;
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 40px 40px;
 }
 .container_of_search input{
+    font-family: 'system-ui';
+    font-weight: 700;
+    outline: none;
     width: 80%;
     height: 30px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     border-top: none;
     border-left:none;
     border-right:none;
